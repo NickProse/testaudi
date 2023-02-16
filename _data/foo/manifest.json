@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://NickProse.github.io/testaudi/foo/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "foo" ] },
+    "items": [
+      {
+        "id": "https://NickProse.github.io/testaudi/foo/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 1985.024,
+        "items": [
+          {
+            "id": "https://NickProse.github.io/testaudi/foo/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://NickProse.github.io/testaudi/foo/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://fixtures.iiif.io/audio/indiana/mahler-symphony-3/CD1/medium/128Kbps.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 1985.024
+                },
+                "target": "https://NickProse.github.io/testaudi/foo/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
